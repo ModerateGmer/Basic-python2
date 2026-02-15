@@ -7,7 +7,7 @@ if img is None:
     
 #gay scal
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
+save_img = cv2.imwrite("New3.png",gray)
 cv2.imshow("result", gray)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
